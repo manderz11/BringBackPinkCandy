@@ -10,8 +10,7 @@ namespace BringBackPinkCandy
         public override Version Version => new Version(1, 0, 0);
         private CandyGrabHandle candyGrabHandle;
         private static readonly PinkCandyPlugin Singleton = new();
-        private PinkCandyPlugin roundControlHandle;
-        
+
         private PinkCandyPlugin(){}
         
         public static PinkCandyPlugin Instance => Singleton;
